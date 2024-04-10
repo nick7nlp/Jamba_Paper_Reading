@@ -1,5 +1,9 @@
 # Jamba
 
+[英文论文](https://arxiv.org/pdf/2403.19887.pdf)
+
+本文先从SSM开始介绍，然后引出Mamba模型，最后介绍Jamba模型。
+
 ### 大纲
 - **背景介绍**
     - 简要介绍：SSM名词概念引入
