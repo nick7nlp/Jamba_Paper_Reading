@@ -257,7 +257,12 @@ $$
 ##### 运算符
 - 并行化--选择性扫描算法（Selective Scan Algorithm）
 - 不使用传统卷积操作，而是定义了新的“加”运算，在并行计算中，“连加”操作是可以并行的。
-- 新的运算符： $(\mathbf{A}_t, \mathbf{B}_tx_t)\oplus(\mathbf{A}_{t+1}, \mathbf{B}_{t+1}x_{t+1}) = (\mathbf{A}_t\mathbf{A}_{t+1}, \color{red}{\mathbf{A}_{t+1}\mathbf{B}_tx_t+\mathbf{B}_{t+1}x_{t+1}}\color{black}{)}$
+- 新的运算符：
+
+<p align="center">
+<img src="figures/operation.png" width = "60%" />
+</p>
+
 - 上述运算符满足交换律和结合律，取运算结果中的第二项作为计算结果
 - 运算的操作顺序与矩阵 $\mathbf{A}$ 无关
 
