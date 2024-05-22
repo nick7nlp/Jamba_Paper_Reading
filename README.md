@@ -428,8 +428,6 @@ $$
 <img align="center" src="figures/ablation7.png" width = "60%" />
 </p>
 
-- 有个地方，我有疑问，但还没来得及调研，就是作者在1.3B上训了250B的tokens，但在7B上训了50B的tokens，这是什么逻辑？
-
 ##
 
 Note:
